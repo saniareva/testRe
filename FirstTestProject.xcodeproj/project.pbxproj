@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF5D904A21F3A980007BFD83 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5D904921F3A980007BFD83 /* CollectionViewCell.swift */; };
 		AF6B108321EFCAE200496DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6B108221EFCAE200496DE5 /* AppDelegate.swift */; };
 		AF6B108521EFCAE200496DE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6B108421EFCAE200496DE5 /* ViewController.swift */; };
 		AF6B108821EFCAE200496DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6B108621EFCAE200496DE5 /* Main.storyboard */; };
 		AF6B108A21EFCAE200496DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6B108921EFCAE200496DE5 /* Assets.xcassets */; };
 		AF6B108D21EFCAE200496DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6B108B21EFCAE200496DE5 /* LaunchScreen.storyboard */; };
+		AF6B109521EFCE1F00496DE5 /* NexViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6B109421EFCE1F00496DE5 /* NexViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF5D904921F3A980007BFD83 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		AF6B107F21EFCAE200496DE5 /* FirstTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6B108221EFCAE200496DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF6B108421EFCAE200496DE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		AF6B108921EFCAE200496DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6B108C21EFCAE200496DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6B108E21EFCAE200496DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF6B109421EFCE1F00496DE5 /* NexViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				AF6B108221EFCAE200496DE5 /* AppDelegate.swift */,
 				AF6B108421EFCAE200496DE5 /* ViewController.swift */,
+				AF6B109421EFCE1F00496DE5 /* NexViewViewController.swift */,
 				AF6B108621EFCAE200496DE5 /* Main.storyboard */,
+				AF5D904921F3A980007BFD83 /* CollectionViewCell.swift */,
 				AF6B108921EFCAE200496DE5 /* Assets.xcassets */,
 				AF6B108B21EFCAE200496DE5 /* LaunchScreen.storyboard */,
 				AF6B108E21EFCAE200496DE5 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				AF6B108521EFCAE200496DE5 /* ViewController.swift in Sources */,
 				AF6B108321EFCAE200496DE5 /* AppDelegate.swift in Sources */,
+				AF5D904A21F3A980007BFD83 /* CollectionViewCell.swift in Sources */,
+				AF6B109521EFCE1F00496DE5 /* NexViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8M95ZS36BQ;
 				INFOPLIST_FILE = FirstTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RevaAlekandrUA.FirstTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8M95ZS36BQ;
 				INFOPLIST_FILE = FirstTestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RevaAlekandrUA.FirstTestProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
